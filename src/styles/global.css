@@ -9,12 +9,11 @@
 
 :root {
   font-size: 16px;
-  --color-text: #000;
+  --color-text: #34a001;
   --color-text-alt: #6a6a6a;
   --color-faded: #c9c9c9;
-  --color-bg: #fff;
   --border-color: #ccc;
-  --color-link: #000;
+  --color-link: #005a23;
   --color-link-hover: #999;
   --color-placeholder: #f8f8f8;
   --font-size-s: 0.85rem;
@@ -242,4 +241,8 @@ dd {
     grid-template-columns: 20vw 1fr auto;
     gap: 1rem;
   }
+}
+
+body {
+    background: radial-gradient(125% 125% at 50% 10%, #000000 40%, rgb(20, 175, 116) 100%);
 }

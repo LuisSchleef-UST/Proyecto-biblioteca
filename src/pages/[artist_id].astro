@@ -3,7 +3,6 @@ import type { CollectionEntry } from "astro:content";
 import { getCollection, render } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Separator from "../components/Separator.astro";
-import AlbumGrid from "../components/AlbumGrid.astro";
 
 export const getStaticPaths = async () => {
   // Fetch all artists from the 'artists' collection
@@ -77,14 +76,6 @@ const { Content } = await render(artist);
           <dt>Genre</dt><dd>{artist.data.genre}</dd>
         </dl>
       </div>
-      {
-        albums.length > 0 && (
-          <div class="albums">
-            <h3>Releases</h3>
-            <AlbumGrid albums={albums} />
-          </div>
-        )
-      }
     </div>
   </section>
 </BaseLayout>

@@ -54,12 +54,12 @@ const { grid } = Astro.props;
     top: 0;
     left: 0;
     padding: 1rem;
-    width: 240px;
-    background: #000;
-    color: #bababa;
+    width: max-content;
+    background: #00a552;
+    color: #000000;
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto;
     pointer-events: none;
     justify-content: space-between;
     grid-row-gap: 0.25rem;
@@ -79,7 +79,7 @@ const { grid } = Astro.props;
   .tooltip__row:first-child {
     text-transform: uppercase;
     font-weight: bold;
-    color: #fff;
+    color: #000000;
   }
   .tooltip__content {
     grid-area: tt-content;

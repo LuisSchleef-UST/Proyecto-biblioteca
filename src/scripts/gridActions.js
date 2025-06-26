@@ -92,8 +92,11 @@ const filterGrid = (searchValue) => {
   gridItems.forEach((item) => {
     const name = item.getAttribute('data-name').toLowerCase();
     const stagename = item.getAttribute('data-stagename').toLowerCase();
+    const genre = item.getAttribute('data-genre').toLowerCase(); // Añadir esta línea
     item.style.display =
-      name.includes(lowerCaseSearch) || stagename.includes(lowerCaseSearch)
+      name.includes(lowerCaseSearch) ||
+      stagename.includes(lowerCaseSearch) ||
+      genre.includes(lowerCaseSearch) // Añadir esta línea
         ? ''
         : 'none';
   });
