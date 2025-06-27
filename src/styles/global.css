@@ -10,8 +10,8 @@
 :root {
   font-size: 16px;
   --color-text: #34a001;
-  --color-text-alt: #6a6a6a;
-  --color-faded: #c9c9c9;
+  --color-text-alt: #c7c7c7;
+  --color-faded: #131111;
   --border-color: #ccc;
   --color-link: #005a23;
   --color-link-hover: #999;
@@ -67,7 +67,7 @@ a {
 
   &:focus {
     outline: none;
-    background-color: lightgrey;
+    background-color: rgb(204, 204, 204);
 
     &:not(:focus-visible) {
       background-color: transparent;
@@ -244,5 +244,5 @@ dd {
 }
 
 body {
-    background: radial-gradient(125% 125% at 50% 10%, #000000 40%, rgb(20, 175, 116) 100%);
+    background: radial-gradient(125% 125% at 50% 10%, #b8b7b793 40%, rgb(20, 175, 116) 100%);
 }
