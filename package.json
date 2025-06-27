@@ -12,13 +12,13 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.2.1",
     "@fontsource-variable/instrument-sans": "^5.1.0",
-    "@tailwindcss/vite": "^4.1.10",
+    "@astrojs/tailwind": "^5.1.0",
     "astro": "^5.3.0",
     "astro-seo": "^0.8.4",
     "gsap": "^3.12.5",
     "imagesloaded": "^5.0.0",
     "lenis": "^1.1.17",
-    "tailwindcss": "^4.1.10"
+    "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
     "@types/imagesloaded": "^4.1.6"
