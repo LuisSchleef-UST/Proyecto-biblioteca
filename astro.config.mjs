@@ -3,5 +3,6 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
+  site: 'https://proyecto-biblioteca-git-main-luis-schleefs-projects.vercel.app/',
   integrations: [tailwind()],
 });
